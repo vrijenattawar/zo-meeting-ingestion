@@ -1,0 +1,20 @@
+# meeting-ingestion Settings
+# Copy this to settings.yaml and customize
+
+skill:
+  name: meeting-ingestion
+  version: 1.0.0
+paths:
+  workspace: Personal/Meetings/Inbox/2026-01-26_David-x-Careerspan
+  personal: Personal/Meetings/Inbox/
+  n5: N5/review/meetings/hitl-queue
+integrations:
+  google_drive:
+    enabled: true
+    config: '# Add integration-specific config here'
+  google_calendar:
+    enabled: true
+    config: '# Add integration-specific config here'
+  gmail:
+    enabled: true
+    config: '# Add integration-specific config here'

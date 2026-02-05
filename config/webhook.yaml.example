@@ -1,0 +1,17 @@
+# Webhook Configuration
+# Copy this to webhook.yaml and customize
+
+webhook:
+  port: 8900
+  secret: null  # Set via WEBHOOK_SECRET env var
+  
+  sources:
+    otter:
+      enabled: true
+    fireflies:
+      enabled: true
+    generic:
+      enabled: true
+
+  auto_process: true
+  save_raw: true
